@@ -1,0 +1,26 @@
+[project]
+name = "llamaindex-basics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AnnaBuchkovska", email = "kushlabaanna@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "crawl4ai>=0.9.3",
+    "kaggle>=2.2.4",
+    "llama-index>=0.14.24",
+    "llama-index-readers-file>=0.7.0",
+    "llama-index-vector-stores-chroma>=0.6.0",
+    "pymupdf>=1.28.2",
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+llamaindex-basics = "llamaindex_basics:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

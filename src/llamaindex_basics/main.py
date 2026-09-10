@@ -38,6 +38,8 @@ from llama_index.core.memory import ChatMemoryBuffer
 from llama_index.core.chat_engine import SimpleChatEngine
 from llama_index.core.chat_engine.types import ChatMode
 
+from src.llamaindex_basics.tools import get_agent
+
 CACHE_DIR = "./pipeline_cache"
 CHROMA_DIR = "./chroma_db_cached"
 

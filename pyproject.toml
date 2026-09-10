@@ -13,6 +13,7 @@ dependencies = [
     "kaggle>=2.2.4",
     "llama-index>=0.14.24",
     "llama-index-readers-file>=0.7.0",
+    "llama-index-tools-duckduckgo>=0.6.0",
     "llama-index-vector-stores-chroma>=0.6.0",
     "pymupdf>=1.28.2",
     "streamlit>=1.63.0",
